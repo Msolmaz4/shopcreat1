@@ -23,7 +23,8 @@ export class Products extends Component {
                                </h3>
                                <span>${product.price}</span>
                                <p>{product.description}</p>
-                              
+                               <button>Add </button>
+                               
                            </div>
                        </div>
                    ))
