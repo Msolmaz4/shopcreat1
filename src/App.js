@@ -9,10 +9,12 @@ import Detail from './component/Section/Detail'
 function App() {
   return (
 
-    <DataProvider>
+    
 
 <div className="App">
-      <Router>
+  <DataProvider>
+
+  <Router>
       <Header/>
       <Section/>
       <Routes>
@@ -20,10 +22,12 @@ function App() {
         <Route path='/product/:id' element={<Detail/>}/>
       </Routes>
       </Router>
+  </DataProvider>
+     
   
     </div>
 
-    </DataProvider>
+  
    
   );
 }
